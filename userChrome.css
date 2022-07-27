@@ -16,11 +16,15 @@
     Authors:        Andreas Grafen (original cascade theme)
                     (https://andreas.grafen.info)
 
-		            Clément Rambaud (minor tweaks on the original file)
+		              Clément Rambaud (minor tweaks on the original file)
+
+                    Anton Van Assche (minor color changes on Andreas's version)
+
 
 
     Repository:     https://github.com/andreasgrafen/cascade
-  		            https://github.com/crambaud/cascade
+  		              https://github.com/crambaud/cascade
+                    https://github.com/AntonVanAssche/waterfall
 
 *========================================================================================================*/
 
@@ -42,26 +46,26 @@
     /* Comment the color theme you don't want to use */
 
     /* Dark Theme Colors */
-    --window-colour:               #1f2122;
-    --secondary-colour:            #141616;
-    --inverted-colour:             #FAFAFC;
+    --window-colour:               #202020;
+    --secondary-colour:            #1C1C1C;
+    --inverted-colour:             #FAFAFA;
 
     /* Light Theme Colors
-    --window-colour:               #FAFAFC;
-    --secondary-colour:            #EAEAEC;
-    --inverted-colour:             #1E2021;
+    --window-colour:               #FAFAFA;
+    --secondary-colour:            #FFFFFF;
+    --inverted-colour:             #202020;
     */
 
      
     /* Containter Tab Colours */
-    --uc-identity-color-blue:      #7ED6DF;
-    --uc-identity-color-turquoise: #55E6C1;
-    --uc-identity-color-green:     #B8E994;
-    --uc-identity-color-yellow:    #F7D794;
+    --uc-identity-color-blue:      #61AFEF;
+    --uc-identity-color-turquoise: #56B6C2;
+    --uc-identity-color-green:     #98C279;
+    --uc-identity-color-yellow:    #E5C07B;
     --uc-identity-color-orange:    #F19066;
-    --uc-identity-color-red:       #FC5C65;
+    --uc-identity-color-red:       #E06C75;
     --uc-identity-color-pink:      #F78FB3;
-    --uc-identity-color-purple:    #786FA6;
+    --uc-identity-color-purple:    #C678DD;
      
     
     /* URL colour in URL bar suggestions */
