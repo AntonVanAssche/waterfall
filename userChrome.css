@@ -16,15 +16,11 @@
     Authors:        Andreas Grafen (original cascade theme)
                     (https://andreas.grafen.info)
 
-		              Clément Rambaud (minor tweaks on the original file)
-
-                    Anton Van Assche (minor color changes on Andreas's version)
-
+		            Clément Rambaud (minor tweaks on the original file)
 
 
     Repository:     https://github.com/andreasgrafen/cascade
-  		              https://github.com/crambaud/cascade
-                    https://github.com/AntonVanAssche/waterfall
+  		            https://github.com/crambaud/cascade
 
 *========================================================================================================*/
 
@@ -52,7 +48,7 @@
 
     /* Light Theme Colors
     --window-colour:               #FAFAFA;
-    --secondary-colour:            #FFFFFF;
+    --secondary-colour:            #1C1C1C;
     --inverted-colour:             #202020;
     */
 
@@ -78,7 +74,7 @@
      +---+---+---+---+---+---+---*/
     
     /* global border radius */
-    --uc-border-radius: 0;
+    --uc-border-radius: 10;
      
     /* dynamic url bar width settings */
     --uc-urlbar-width: clamp(250px, 50vw, 600px);
@@ -436,3 +432,15 @@ window,
 .identity-color-red       { --identity-tab-color: var(--uc-identity-color-red)       !important; --identity-icon-color: var(--uc-identity-color-red)       !important; }
 .identity-color-pink      { --identity-tab-color: var(--uc-identity-color-pink)      !important; --identity-icon-color: var(--uc-identity-color-pink)      !important; }
 .identity-color-purple    { --identity-tab-color: var(--uc-identity-color-purple)    !important; --identity-icon-color: var(--uc-identity-color-purple)    !important; }
+
+
+
+
+
+/* Show Window Control Button */
+/* .titlebar-buttonbox-container { display: -moz-inline-box !important; } */
+
+/* Mac/Linux Window Buttons */
+.titlebar-buttonbox {
+   display: none;
+}
